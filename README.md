@@ -3,7 +3,7 @@
 A prototype flight connection search engine: a Node.js/TypeScript/Express backend and a
 React/TypeScript/Vite frontend for searching direct and connecting itineraries (up to 2 stops)
 between two airports on a given date, built against the provided `flights.json` dataset (25
-airports, ~300 flights on 2024-03-15/16).
+airports, ~300 flights on 2024-03-15).
 
 ## How to run
 
