@@ -1,0 +1,19 @@
+{
+  "airports": [
+    { "code": "AAA", "name": "Alpha Airport", "city": "Alphaville", "country": "US", "timezone": "UTC" },
+    { "code": "BBB", "name": "Bravo Airport", "city": "Metropolis", "country": "US", "timezone": "UTC" },
+    { "code": "FFF", "name": "Foxtrot Airport", "city": "Metropolis", "country": "US", "timezone": "UTC" },
+    { "code": "CCC", "name": "Charlie Airport", "city": "Charlietown", "country": "US", "timezone": "UTC" },
+    { "code": "DDD", "name": "Delta Airport", "city": "Deltaburg", "country": "GB", "timezone": "UTC" }
+  ],
+  "flights": [
+    { "flightNumber": "M1", "airline": "MiniAir", "origin": "AAA", "destination": "BBB", "departureTime": "2024-01-01T08:00:00", "arrivalTime": "2024-01-01T09:00:00", "price": 100, "aircraft": "A1" },
+    { "flightNumber": "M2", "airline": "MiniAir", "origin": "BBB", "destination": "AAA", "departureTime": "2024-01-01T09:45:00", "arrivalTime": "2024-01-01T10:45:00", "price": 100, "aircraft": "A1" },
+    { "flightNumber": "M3", "airline": "MiniAir", "origin": "AAA", "destination": "CCC", "departureTime": "2024-01-01T11:30:00", "arrivalTime": "2024-01-01T12:30:00", "price": 100, "aircraft": "A1" },
+    { "flightNumber": "M4", "airline": "MiniAir", "origin": "BBB", "destination": "CCC", "departureTime": "2024-01-01T10:00:00", "arrivalTime": "2024-01-01T11:00:00", "price": 120, "aircraft": "A1" },
+    { "flightNumber": "M5", "airline": "MiniAir", "origin": "AAA", "destination": "DDD", "departureTime": "2024-01-01T08:00:00", "arrivalTime": "2024-01-01T09:00:00", "price": 200, "aircraft": "A2" },
+    { "flightNumber": "M6", "airline": "MiniAir", "origin": "DDD", "destination": "CCC", "departureTime": "2024-01-01T10:29:00", "arrivalTime": "2024-01-01T11:29:00", "price": 150, "aircraft": "A2" },
+    { "flightNumber": "M7", "airline": "MiniAir", "origin": "DDD", "destination": "CCC", "departureTime": "2024-01-01T10:30:00", "arrivalTime": "2024-01-01T11:30:00", "price": 150, "aircraft": "A2" },
+    { "flightNumber": "M9", "airline": "MiniAir", "origin": "FFF", "destination": "CCC", "departureTime": "2024-01-01T09:30:00", "arrivalTime": "2024-01-01T10:30:00", "price": 90, "aircraft": "A1" }
+  ]
+}
